@@ -18,5 +18,6 @@ $cars = array("Volvo", "BMW", "Toyota");
 // Multidimensional arrays - Arrays containing one or more arrays
 print_r($cars);
 echo count($cars);
+echo $cars[1]
 
 ?>
