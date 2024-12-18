@@ -16,16 +16,18 @@ $cars = array("Volvo", "BMW", "Toyota");
 // Indexed arrays - Arrays with a numeric index
 // Associative arrays - Arrays with named keys
 // Multidimensional arrays - Arrays containing one or more arrays
-print_r($cars);
-echo count($cars);
-echo $cars[1];
-$cars[1] = "Ford";
-var_dump($cars);
+// print_r($cars);
+// echo count($cars);
+// echo $cars[1];
+// $cars[1] = "Ford";
+// var_dump($cars);
 
 
-$cars = array("Volvo", "BMW", "Toyota");
-foreach ($cars as $x) {
-  echo "$x <br>";
-}
+// $cars = array("Volvo", "BMW", "Toyota");
+// foreach ($cars as $x) {
+//   echo "$x <br>";
+// }
+$car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+var_dump($car);
 
 ?>
