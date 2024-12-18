@@ -20,6 +20,7 @@ $cars = array("Volvo", "BMW", "Toyota");
 // echo count($cars);
 // echo $cars[1];
 // $cars[1] = "Ford";
+
 // var_dump($cars);
 
 
@@ -28,6 +29,6 @@ $cars = array("Volvo", "BMW", "Toyota");
 //   echo "$x <br>";
 // }
 $car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+$car["year"] = 2024;
 var_dump($car);
-
 ?>
