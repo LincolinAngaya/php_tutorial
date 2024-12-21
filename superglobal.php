@@ -9,3 +9,11 @@ $_FILES
 $_ENV
 $_COOKIE
 $_SESSION -->
+<?php
+$x = 75;
+function myfunction (){
+    echo $GLOBALS['x'];
+}
+myfunction();
+
+?>
