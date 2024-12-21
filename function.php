@@ -5,9 +5,10 @@
   
 //   myMessage();
 
-function familyName($fname){
+function familyName($fname, $year){
     echo "$fname lincolin.<br>";
+    echo "$year yers old";
 
 }
-familyName("Angaya");
+familyName("Angaya", "21");
 ?>
