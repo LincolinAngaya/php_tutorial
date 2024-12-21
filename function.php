@@ -32,10 +32,34 @@
 // echo sum(4,5);
 
 
-function add_five(&$value){
-    $value+= 5;
+// function add_five(&$value){
+//     $value+= 5;
+// }
+// $num = 2;
+// add_five($num);
+// echo $num;
+
+
+
+
+//use the switch statement to select one of many blocks of code to be executed.
+$color = 'red';
+switch ($color){
+    case 'red':
+        echo "your favorite color is red";
+        break;
+    case "white":
+        echo "your favorite color is white";
+        break;
+        case "blue":
+            echo "Your favorite color is blue!";
+            break;
+          case "green":
+            echo "Your favorite color is green!";
+            break;
+          default:
+            echo "Your favorite color is neither red, blue, nor green!";
 }
-$num = 2;
-add_five($num);
-echo $num;
+
+
 ?>
