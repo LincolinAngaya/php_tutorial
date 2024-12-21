@@ -1,7 +1,13 @@
 <?php
-function myMessage() {
-    echo "Hello world!";
-  }
+// function myMessage() {
+//     echo "Hello world!";
+//   }
   
-  myMessage();
+//   myMessage();
+
+function familyName($fname){
+    echo "$fname lincolin.<br>";
+
+}
+familyName("Angaya");
 ?>
