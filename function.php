@@ -46,7 +46,7 @@
 $color = 'red';
 switch ($color){
     case 'red':
-        echo "your favorite color is red";
+        echo "<h2>your favorite color is red </h2>";
         break;
     case "white":
         echo "your favorite color is white";
@@ -61,5 +61,5 @@ switch ($color){
             echo "Your favorite color is neither red, blue, nor green!";
 }
 
-
+echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ?>
