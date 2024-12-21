@@ -23,12 +23,19 @@
 // setHeight(25);
 
 
-function sum($x, $y){
-    $z = $x + $y;
-     return $z;
+// function sum($x, $y){
+//     $z = $x + $y;
+//      return $z;
 
 
+// }
+// echo sum(4,5);
+
+
+function add_five(&$value){
+    $value+= 5;
 }
-echo sum(4,5);
-
+$num = 2;
+add_five($num);
+echo $num;
 ?>
